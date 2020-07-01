@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.29)  16 JUN 2020 05:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.29)  29 JUN 2020 03:00
 entering extended mode
 **./comunicaciones3.tex
 (comunicaciones3.tex
@@ -171,25 +171,43 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@dimlist=\toks24
 
 (C:\Users\matyas\AppData\Roaming\MiKTeX\2.9\tex/latex/geometry\geometry.cfg))
+(C:\Users\matyas\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption.sty
+Package: caption 2020/05/10 v3.4j Customizing captions (AR)
+
+(C:\Users\matyas\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
+Package: caption3 2020/05/10 v1.11 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen155
+\captionmargin@=\dimen156
+\captionwidth=\dimen157
+\caption@tempdima=\dimen158
+\caption@indent=\dimen159
+\caption@parindent=\dimen160
+\caption@hangindent=\dimen161
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count193
+\c@continuedfloat=\count194
+)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\multicol.sty"
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count193
+\c@tracingmulticols=\count195
 \mult@box=\box47
-\multicol@leftmargin=\dimen155
-\c@unbalance=\count194
-\c@collectmore=\count195
-\doublecol@number=\count196
-\multicoltolerance=\count197
-\multicolpretolerance=\count198
-\full@width=\dimen156
-\page@free=\dimen157
-\premulticols=\dimen158
-\postmulticols=\dimen159
+\multicol@leftmargin=\dimen162
+\c@unbalance=\count196
+\c@collectmore=\count197
+\doublecol@number=\count198
+\multicoltolerance=\count199
+\multicolpretolerance=\count266
+\full@width=\dimen163
+\page@free=\dimen164
+\premulticols=\dimen165
+\postmulticols=\dimen166
 \multicolsep=\skip52
 \multicolbaselineskip=\skip53
 \partial@page=\box48
 \last@line=\box49
-\maxbalancingoverflow=\dimen160
+\maxbalancingoverflow=\dimen167
 \mult@rightbox=\box50
 \mult@grightbox=\box51
 \mult@gfirstbox=\box52
@@ -231,56 +249,56 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box88
 \@tempa=\box89
 \@tempa=\box90
-\c@minrows=\count199
-\c@columnbadness=\count266
-\c@finalcolumnbadness=\count267
-\last@try=\dimen161
-\multicolovershoot=\dimen162
-\multicolundershoot=\dimen163
+\c@minrows=\count267
+\c@columnbadness=\count268
+\c@finalcolumnbadness=\count269
+\last@try=\dimen168
+\multicolovershoot=\dimen169
+\multicolundershoot=\dimen170
 \mult@nat@firstbox=\box91
 \colbreak@box=\box92
-\mc@col@check@num=\count268
+\mc@col@check@num=\count270
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count269
+\l__kernel_color_stack_int=\count271
 \l__pdf_internal_box=\box93
 )
 (comunicaciones3.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
 )
 \openout1 = `comunicaciones3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count270
-\scratchdimen=\dimen164
+\scratchcounter=\count272
+\scratchdimen=\dimen171
 \scratchbox=\box94
-\nofMPsegments=\count271
-\nofMParguments=\count272
+\nofMPsegments=\count273
+\nofMParguments=\count274
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count273
-\MPscratchDim=\dimen165
-\MPnumerator=\count274
-\makeMPintoPDFobject=\count275
+\MPscratchCnt=\count275
+\MPscratchDim=\dimen172
+\MPnumerator=\count276
+\makeMPintoPDFobject=\count277
 \everyMPtoPDFconversion=\toks26
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -321,51 +339,185 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<C:/Users/matyas/Pictures/Imágenes guardadas/03 (3).jpg, id=1, 126.9543pt x 11
-0.5731pt>
-File: C:/Users/matyas/Pictures/Imágenes guardadas/03 (3).jpg Graphic file (typ
-e jpg)
-<use C:/Users/matyas/Pictures/Imágenes guardadas/03 (3).jpg>
-Package pdftex.def Info: C:/Users/matyas/Pictures/Imágenes guardadas/03 (3).jp
-g  used on input line 47.
-(pdftex.def)             Requested size: 170.71652pt x 148.6885pt.
- [1
+Underfull \hbox (badness 10000) in paragraph at lines 29--33
 
-{C:/Users/matyas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/m
-atyas/Pictures/Imágenes guardadas/03 (3).jpg>] (comunicaciones3.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
+ []
+
+<image/okumura.JPG, id=1, 417.81094pt x 306.39468pt>
+File: image/okumura.JPG Graphic file (type jpg)
+<use image/okumura.JPG>
+Package pdftex.def Info: image/okumura.JPG  used on input line 44.
+(pdftex.def)             Requested size: 227.62204pt x 166.92802pt.
+
+Overfull \hbox (3.51309pt too wide) in paragraph at lines 60--67
+ [] 
+ []
+
+
+Overfull \hbox (6.84642pt too wide) in paragraph at lines 80--87
+ [] 
+ []
+
+[1
+
+{C:/Users/matyas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./image/ok
+umura.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 97--100
+
+ []
+
+<image/GRAFICAAA.PNG, id=11, 365.86688pt x 127.22531pt>
+File: image/GRAFICAAA.PNG Graphic file (type png)
+<use image/GRAFICAAA.PNG>
+Package pdftex.def Info: image/GRAFICAAA.PNG  used on input line 101.
+(pdftex.def)             Requested size: 227.62204pt x 79.15259pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--143
+
+ []
+
+<image/ANTENA.PNG, id=13, 295.85532pt x 283.81032pt>
+File: image/ANTENA.PNG Graphic file (type png)
+<use image/ANTENA.PNG>
+Package pdftex.def Info: image/ANTENA.PNG  used on input line 152.
+(pdftex.def)             Requested size: 199.16928pt x 191.06567pt.
+
+Overfull \hbox (52.2632pt too wide) in paragraph at lines 160--173
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
+
+ []
+
+<image/Captura.PNG, id=14, 349.305pt x 338.01282pt>
+File: image/Captura.PNG Graphic file (type png)
+<use image/Captura.PNG>
+Package pdftex.def Info: image/Captura.PNG  used on input line 190.
+(pdftex.def)             Requested size: 227.62204pt x 220.2679pt.
+[2 <./image/GRAFICAAA.PNG> <./image/ANTENA.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 227--243
+
+ []
+
+
+Overfull \hbox (37.84677pt too wide) in paragraph at lines 227--243
+\OT1/cmr/m/n/10 Lrts=-16,9-10.log(W)+10.log(fc)+20.log($$hm)+Lori=34,10dB 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--243
+
+ []
+
+
+Overfull \hbox (33.40231pt too wide) in paragraph at lines 244--245
+[]\OT1/cmr/m/n/10 Lmsd=Lbsk+ka+Kd.log(d)+Kf.log(fc)-9.log(b)=17,893dB 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--256
+
+ []
+
+<image/Screenshot_2020-06-26-19-35-34-1.png, id=24, 542.025pt x 851.18pt>
+File: image/Screenshot_2020-06-26-19-35-34-1.png Graphic file (type png)
+<use image/Screenshot_2020-06-26-19-35-34-1.png>
+Package pdftex.def Info: image/Screenshot_2020-06-26-19-35-34-1.png  used on in
+put line 257.
+(pdftex.def)             Requested size: 142.26378pt x 223.40562pt.
+[3 <./image/Captura.PNG> <./image/Screenshot_2020-06-26-19-35-34-1.png>]
+(comunicaciones3.aux
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 4048 strings out of 480795
- 54656 string characters out of 2905354
- 329378 words of memory out of 3000000
- 20014 multiletter control sequences out of 15000+200000
- 540229 words of font info for 55 fonts, out of 3000000 for 9000
+ 5239 strings out of 480795
+ 76627 string characters out of 2905354
+ 353842 words of memory out of 3000000
+ 21191 multiletter control sequences out of 15000+200000
+ 541241 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,6n,35p,802b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,7n,43p,440b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\matyas\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb>
-Output written on comunicaciones3.pdf (1 page, 166023 bytes).
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on comunicaciones3.pdf (3 pages, 532574 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
