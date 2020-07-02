@@ -1,100 +1,105 @@
- \documentclass[10pt,a4paper]{article}
+ \documentclass[conference, 9pt, a4paper]{IEEEtran}
+\usepackage[spanish, english]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
+\usepackage{multicol}
+
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{caption}
+\usepackage{float}
+\renewcommand\spanishtablename{Tabla}
 
-\usepackage{caption} %enumara supongo
-\author{Lamas Matias , LEGAJO: 65536\\ Navarro Facundo , LEGAJO:  \\Amaya Matias LEGAJO: \\ }
-\title{\textbf{Calculo de Radio enlace terrestre 3G}}
-\date{} %sacar la fecha  
-\usepackage{multicol}
+\title{Calculo de Radio Enlace Terrestre 3G}
+\author{
+	\IEEEauthorblockN{	Amaya Matías }
+	\IEEEauthorblockA{	Universidad Técnológica Nacional\\
+						Legajo: 68284\\
+						Email: @gmail.com\\
+					}
+	\and
+	\IEEEauthorblockN{	Lamas Matías }
+	\IEEEauthorblockA{	Universidad Técnológica Nacional\\
+						Legajo: 65536 \\
+						Email: @gmail.com\\
+					}
 
+	\and
+	\IEEEauthorblockN{	Navarro Facundo }
+	\IEEEauthorblockA{	Universidad Técnológica Nacional\\
+						Legajo: 63809\\
+						Email: facunava92@gmail.com\\	
+					}
+}
 
 \begin{document}
+\selectlanguage{spanish}
 \maketitle  %ver el ttulo (y el autor)
-\begin{multicols}{2} %2 es el numero de columnas
 
+\begin{otherlanguage}{english} 
+\begin{abstract}
+This article presents the calculation of radio link in the 3G band located in the Nueva Cordoba neighborhood of the city of Cordoba. To carry out the same, the COST 231-Walfisch-Ikegami propagation model was applied for a mobile channel located in an urban area.}
+\end{abstract}
+\end{otherlanguage}
 
-\textbf{\textit{Resumen}--Este articulo presenta el calculo de  radio enlace en la banda 3G ubicado en el Barrio Nueva Cordoba de la Ciudad de Cordoba. Para realizar el mismo   se aplico el modelo de propagacion COST 231-Walfisch-Ikegami para un canal movil ubicado en una zona urbana.}
+\begin{abstract}
+Este articulo presenta el calculo de  radio enlace en la banda 3G ubicado en el Barrio Nueva Cordoba de la Ciudad de Cordoba. Para realizar el mismo   se aplico el modelo de propagacion COST 231-Walfisch-Ikegami para un canal movil ubicado en una zona urbana.}
 
-\textbf{\textit{Abstract}--This article presents the calculation of radio link in the 3G band located in the Nueva Cordoba neighborhood of the city of Cordoba. To carry out the same, the COST 231-Walfisch-Ikegami propagation model was applied for a mobile channel located in an urban area.}
+\end{abstract}
 
-\begin{center}  %EMPIEZA LA INTRODUCCION 
-\textbf{I. INTRODUCCION}
-\end{center} %TERMINA LA INTRODUCION osea el titulo
+\section{INTRODUCCIÓN}
 La propagación por radio  es esencial para las tecnologías emergentes con diseño apropiado, implementación y estrategias de gestión para cualquier red inalámbrica . Es muy específico del sitio y puede variar significativamente dependiendo del terreno, frecuencia de operación, velocidad del terminal móvil, fuentes de interfaz y otro factor dinámico.\\%% los dos porcentajes es para salitar linea
-Los modelos de propagacion  se pueden clasificar principalmente en dos extremos, es decir, completamente modelos empíricos y modelos deterministas.Los modelos empíricos se basan en datos medidos prácticamente.Hay algunos modelos que tienen las características de ambos tipos. Esos son conocidos como modelos semiempíricos
+Los modelos de propagación  se pueden clasificar principalmente en dos extremos, es decir, completamente modelos empíricos y modelos deterministas.Los modelos empíricos se basan en datos medidos prácticamente.Hay algunos modelos que tienen las características de ambos tipos. Esos son conocidos como modelos semi empíricos
 El modelo de Cost-231 Walfisch-Ikegami es categorizado como un modo semi empírico.\\
 Estos modelos han sido ampliamente validado para redes móviles. La mayoría de estos modelos son basado en una interpretación sistemática de datos de medición obtenido en el área de servicio.\\
 
-\begin{center}
-\textbf{II. MODELO \textit{Okumura-Hata}}
-\end{center}
+\section{MODELO \textit{Okumura-Hata}}
 El modelo de Okumura es uno de los mas ampliamente utilizados para prediccion de señales en areas urbanas.\\
 El principal resultado del trabajo de Okumura fue un conjunto de curvas que proporcionan el nivel de atenuación media relativa al espacio libre, en función de la frecuencia, la distancia entre transmisor y receptor, la altura de las antenas de la estación base y
 la estación móvil, además de varios factores de corrección específicos para diferentes tipos de trayecto. Este modelo está considerado entre los más simples y mejores en términos de su precisión en el cálculo de las pérdidas en el trayecto y se ha convertido en uno de los más utilizados en la planificación de sistemas móviles de todo el mundo.
 
+\begin{figure}
+	\centering
+	\includegraphics[width=\columnwidth]{image/okumura.JPG}
+	\caption{Curvas de atenuación}
+\end{figure}
 
+Con el objetivo de hacer que este método fuera más fácil de aplicar, Hata estableció una serie de relaciones numéricas que describen el método gráfico propuesto por Okumura. Dichas expresiones de carácter empírico, son conocidas bajo el nombre de modelo de Okumura-Hata, también llamado modelo de Hata. Aunque éste no incluye ninguno de los factores de corrección por tipo de trayecto, los cuales sí están en el modelo de Okumura, las ecuaciones propuestas por Hata tienen un importante valor práctico. Este modelo es aplicable bajo las siguientes condiciones.
 
-\begin{center}
-\includegraphics[width=8cm]{image/okumura.JPG}
-Fig1. Curvas de Atenuacion 
-\end{center}
-
-Con el objetivo de hacer que este método fuera más fácil
-de aplicar, Hata estableció una serie de relaciones numéricas
-que describen el método gráfico propuesto por Okumura.
-Dichas expresiones de carácter empírico, son conocidas bajo
-el nombre de modelo de Okumura-Hata, también llamado
-modelo de Hata. Aunque éste no incluye ninguno
-de los factores de corrección por tipo de trayecto, los cuales
-sí están en el modelo de Okumura, las ecuaciones propuestas
-por Hata tienen un importante valor práctico. Este modelo es
-aplicable bajo las siguientes condiciones.\
 %hacer una tabla 
-\begin{center}
+\begin{table}
+\centering
 \begin{tabular}{|c|c|}\hline  % hline indica la fila   c c son las columnas centradas  
-PARAMETROS & RANGO \\ \hline   %primero hago un salto de linea y despues indico la fila 
-Frecuencia Fc & 100-1500 [MHz] \\ \hline 
-Altura de la estacion base & 3 - 200 [m] \\ \hline 
-Altura de la antena movil   &  1 - 10 [m] \\ \hline
-Distancia de la antena al receptor & 1 - 20 [Km] \\ \hline
+	PARAMETROS							& RANGO	\\ \hline   %primero hago un salto de linea y despues indico la fila 
+	Frecuencia Fc						& 100-1500 [MHz] \\ \hline 
+	Altura de la estacion base			& 3 - 200  [m] \\ \hline 
+	Altura de la antena movil			& 1 - 10   [m] \\ \hline
+	Distancia de la antena al receptor  & 1 - 20   [Km] \\ \hline
 \end{tabular}
-\end{center}
-\begin{center}
-Tabla1. Condiciones modelo OKUMURA-HATA
-\end{center}
+\caption{Condiciones modelo OKUMURA-HATA}
+\end{table}
 
 
-\begin{center}
-\textbf{III. MODELO COST 231\textit{Walfisch-Ikegami}}
-\end{center}
+\section{MODELO COST 231\textit{Walfisch-Ikegami}}
 
 Este modelo, propuesto en el proyecto europeo COST 231, es resultado de la integración de los modelos de Ikegami-Ioshida y de Walfisch-Bertoni . En él se incorpora la influencia de edificaciones y calles en las que se encuentra el dispositivo receptor, para una predicción más precisa de las pérdidas de propagación en entornos urbanos.Este modelo es aplicable bajo las siguientes condiciones.
 
-\begin{center}
-\begin{tabular}{|c|c|}\hline
-PARAMETROS & RANGO \\ \hline
-Frecuencia Fc &  800- 2000 [MHz] \\ \hline
-Altura de la estacion base & 4 - 50 [m] \\ \hline 
-Altura de la antena movil   &  1 - 3 [m] \\ \hline
-Distancia de la antena al receptor & 0,02 -  5 [Km] \\ \hline
-\end{tabular}
-\end{center}
-\begin{center}
-Tabla2. Condiciones modelo COST 231 \textit{Walfisch-Ikegami}
-\end{center}
+\begin{table}
+	\centering
+	\begin{tabular}{|c|c|}\hline
+		PARAMETROS							& RANGO \\ \hline
+		Frecuencia Fc						&  800 - 2000 [MHz] \\ \hline
+		Altura de la estacion base			& 4 - 50   [m] \\ \hline 
+		Altura de la antena movil			& 1 - 3    [m] \\ \hline
+		Distancia de la antena al receptor	& 0,02 - 5 [Km] \\ \hline
+	\end{tabular}
+	\caption{Condiciones modelo COST 231 \textit{Walfisch-Ikegami}}
+\end{table}
 
 
-
-\begin{center}
-\textbf{IV. DESARROLLO}
-\end{center}
-Se utilizara un canal de comunicaciones de la red 3G de telefonia de la compañia ' Claro ' para llevar a cabo los calculos del enlace donde tenemos una antena transmisora-repetidora ubicada en la proximidad de la vivienda de uno de los integrantes del grupo.\\
+\section{DESARROLLO}
+Se utilizara un canal de comunicaciones de la red 3G de telefonia de la compañia ``Claro" para llevar a cabo los calculos del enlace donde tenemos una antena transmisora-repetidora ubicada en la proximidad de la vivienda de uno de los integrantes del grupo.\\
 Debido a que la distancia que entre la antena transmisora
 y el receptor con la que se desea llevar a cabo este practico es de aproximadamente 177 m, es decir menor a 1 km, el modelo Okumura-Hata queda descartado, prosiguiendose a utilizar el modelo  COST 231 Walfisch-Ikegami.\\
 \begin{center}
