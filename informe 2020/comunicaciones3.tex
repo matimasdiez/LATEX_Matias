@@ -2,7 +2,6 @@
 \usepackage[spanish, english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{multicol}
-
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -16,7 +15,7 @@
 	\IEEEauthorblockN{	Amaya Matías }
 	\IEEEauthorblockA{	Universidad Técnológica Nacional\\
 						Legajo: 68284\\
-						Email: @gmail.com\\
+						Email: matiasutn12@gmail.com\\
 					}
 	\and
 	\IEEEauthorblockN{	Lamas Matías }
@@ -39,12 +38,12 @@
 
 \begin{otherlanguage}{english} 
 \begin{abstract}
-This article presents the calculation of radio link in the 3G band located in the Nueva Cordoba neighborhood of the city of Cordoba. To carry out the same, the COST 231-Walfisch-Ikegami propagation model was applied for a mobile channel located in an urban area.}
+This article presents the calculation of radio link in the 3G band located in the Nueva Cordoba neighborhood of the city of Cordoba. To carry out the same, the COST 231-Walfisch-Ikegami propagation model was applied for a mobile channel located in an urban area.
 \end{abstract}
 \end{otherlanguage}
 
 \begin{abstract}
-Este articulo presenta el calculo de  radio enlace en la banda 3G ubicado en el Barrio Nueva Cordoba de la Ciudad de Cordoba. Para realizar el mismo   se aplico el modelo de propagacion COST 231-Walfisch-Ikegami para un canal movil ubicado en una zona urbana.}
+Este articulo presenta el calculo de  radio enlace en la banda 3G ubicado en el Barrio Nueva Cordoba de la Ciudad de Cordoba. Para realizar el mismo   se aplico el modelo de propagacion COST 231-Walfisch-Ikegami para un canal movil ubicado en una zona urbana.
 
 \end{abstract}
 
@@ -64,8 +63,9 @@ la estación móvil, además de varios factores de corrección específicos para
 	\includegraphics[width=\columnwidth]{image/okumura.JPG}
 	\caption{Curvas de atenuación}
 \end{figure}
-
 Con el objetivo de hacer que este método fuera más fácil de aplicar, Hata estableció una serie de relaciones numéricas que describen el método gráfico propuesto por Okumura. Dichas expresiones de carácter empírico, son conocidas bajo el nombre de modelo de Okumura-Hata, también llamado modelo de Hata. Aunque éste no incluye ninguno de los factores de corrección por tipo de trayecto, los cuales sí están en el modelo de Okumura, las ecuaciones propuestas por Hata tienen un importante valor práctico. Este modelo es aplicable bajo las siguientes condiciones.
+
+
 
 %hacer una tabla 
 \begin{table}
@@ -81,10 +81,11 @@ Con el objetivo de hacer que este método fuera más fácil de aplicar, Hata est
 \end{table}
 
 
+
+
+
 \section{MODELO COST 231\textit{Walfisch-Ikegami}}
-
-Este modelo, propuesto en el proyecto europeo COST 231, es resultado de la integración de los modelos de Ikegami-Ioshida y de Walfisch-Bertoni . En él se incorpora la influencia de edificaciones y calles en las que se encuentra el dispositivo receptor, para una predicción más precisa de las pérdidas de propagación en entornos urbanos.Este modelo es aplicable bajo las siguientes condiciones.
-
+Este modelo, propuesto en el proyecto europeo COST 231, es resultado de la integración de los modelos de Ikegami-Ioshida y de Walfisch-Bertoni . En él se incorpora la influencia de edificaciones y calles en las que se encuentra el dispositivo receptor, para una predicción más precisa de las pérdidas de propagación en entornos urbanos.Este modelo es aplicable bajo las siguientes condiciones.\\
 \begin{table}
 	\centering
 	\begin{tabular}{|c|c|}\hline
@@ -99,15 +100,22 @@ Este modelo, propuesto en el proyecto europeo COST 231, es resultado de la integ
 
 
 \section{DESARROLLO}
+
 Se utilizara un canal de comunicaciones de la red 3G de telefonia de la compañia ``Claro" para llevar a cabo los calculos del enlace donde tenemos una antena transmisora-repetidora ubicada en la proximidad de la vivienda de uno de los integrantes del grupo.\\
 Debido a que la distancia que entre la antena transmisora
 y el receptor con la que se desea llevar a cabo este practico es de aproximadamente 177 m, es decir menor a 1 km, el modelo Okumura-Hata queda descartado, prosiguiendose a utilizar el modelo  COST 231 Walfisch-Ikegami.\\
-\begin{center}
-\includegraphics[width=8cm]{image/GRAFICAAA.PNG} 
-\end{center}
-\begin{center}
-Fig2. COSTE 231 Modelo Walfish-Ikegami
-\end{center}
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\columnwidth]{image/GRAFICAAA.PNG}
+	\caption{ COSTE 231 Modelo Walfish-Ikegamin}
+\end{figure}
+
+
+
+
 La ecuaciones que representa este modelo son las siguientes.\\
 \begin{center}
  L(db) =\ Lo\ +\ Lrts\ +\ Lmsd 
@@ -145,41 +153,37 @@ altura media de los edificios.\\
 Kd: dependencia de Lmsd con la distancia .\\
 Kf : dependencia de Lmsd con la frecuencia . \\ 
 b:  distancia promedio entre edificios. \\
-\begin{center}
-\textbf{IV. ANTENA Y RECEPTOR }
-\end{center}
 
+
+\section{ANTENA Y RECEPTOR}
 La antena seleccionada para la realizacion de los respectivos
 calculos se encuentra ubicada en el barrio nueva cordoba y cuyas caracterısticas y coordenadas son: 
 
 
-\begin{center}
-\includegraphics[width=7cm]{image/ANTENA.PNG} 
-\end{center}
-\begin{center}
-Fig3. Antena  Marca TXPRO modelo TX9181290NF
-\end{center}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\columnwidth]{image/ANTENA.PNG}
+	\caption{ Antena  Marca TXPRO modelo TX9181290NFn}
+\end{figure}
 
 
-\begin{center}
-\begin{tabular}{|c|c|}
-\hline 
-Rango de Frecuencia  & 806 - 960 / 1710 - 1990 MHz\\ 
-\hline 
-Ganancia & 12 dbi / 12 dBi \\ 
-\hline 
-Apertura(Horizontal / Vertical) & 83° / 30° / 90° / 30° \\ 
-\hline 
-Polarización & Vertical \\ 
-\hline 
-Dimensiones & 112.7 x 26.9 x 12.9 cm \\ 
-\hline 
-\end{tabular} 
-\end{center}
+\begin{table}
+\centering
+\begin{tabular}{|c|c|}\hline  
+	Rango de Frecuencia					    & 806 - 960 / 1710 - 1990 [MHz] \\ \hline 
+	Ganancia								& 12 dBi / 12 dBi \\ \hline 
+	Apertura(Horizontal / Vertical)			& 83° / 30° / 90° / 30° \\ \hline
+	Polarización 							& Vertical \\ \hline
+	Dimensiones								& 112.7 x 26.9 x 12.9  [cm] \\ \hline
+\end{tabular}
+\caption{Caracteristicas de la Antena}
+\end{table}
 
-\begin{center}
-Tabla3. Caracteristicas de la Antena
-\end{center}
+
+
+
+
 Mediante la utilizacion de la aplicacion Google Maps se determinara la distancia real entre la antena y el receptor, siendo la misma 176,94 m.
 \begin{center}
  Coordenadas del Receptor 
@@ -191,44 +195,46 @@ Longitud : 64°11'11.66"O \\
  \end{center} 
 Latitud :31°25'50.53"S\\
 Longitud :  64°11'6.67"O \\
-\begin{center}
-\includegraphics[width=8cm]{image/Captura.PNG} 
-\end{center}
+
+
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\columnwidth]{image/Captura.PNG}
+	\caption{Ubicacion Geografica}
+\end{figure}
+
 
 En cuanto a la frecuencia, para 3G es necesario que el
 dispositivo receptor (o nuestro telefono, en este caso) soporte las dos bandas de frecuencia (UMTS 850 y UMTS 1900), debido a que esto es lo que se encuentra rigiendo vigente tanto en la ciudad de Cordoba como en el resto de Argentina y,de esta forma, nos aseguramos conectividad con cualquier antena del pais.
 
-\begin{flushleft}
-Datos Relevados:\\
-\end{flushleft}
 
-\begin{center}
-\begin{tabular}{|c|c|}
-\hline 
-fc=850 MHz & Frecuencia Portadora  \\ 
-\hline 
-hb=38 m & Altura estacion base  \\ 
-\hline 
-hm = 1,50 m & Altura antena movil \\ 
-\hline 
-d= 0,17694 Km & Distancia movil-base \\ 
-\hline 
-Ptx = 40 dBm & Potencia Transmisor \\ 
-\hline 
-Gtx=12 dBi & Ganancia Antena Tx \\ 
-\hline 
-Grx=2 dBi & Ganancia Antena Rx \\ 
-\hline 
-Lctx = 1 dBi & Perdida conectores Tx \\ 
-\hline 
-Lcrzx= 1 dBi & Perdida conectores Rx \\ 
-\hline 
-\end{tabular} 
-\end{center}
+\begin{table}
+\centering
+\begin{tabular}{|c|c|}\hline  
+	fc=850 MHz					  & Frecuencia Portadora \\ \hline 
+	hb=38 m						   & Altura estacion base \\ \hline 
+	hm = 1,50 m			          & Altura antena movil \\ \hline
+	d= 0,17694 Km 				& Distancia movil-base \\ \hline
+	Ptx = 40 dBm				& Potencia Transmisor \\ \hline
+	Gtx=12 dBi					 & Ganancia Antena Tx \\ \hline 
+	Grx=2 dBi					& Ganancia Antena Rx \\ \hline 
+	Lctx = 1 dBi				& Perdida conectores Tx \\ \hline
+	Lcrzx= 1 dBi 				& Perdida conectores Rx \\ \hline
 
-\begin{center}
-\textbf{V. RESOLUCION }
-\end{center}
+\end{tabular}
+\caption{asdasd}
+\end{table}
+
+
+
+
+
+
+
+\section{RESOLUCION}
 Calculo de Lo :\\
 Lo= 46,2+26.log(d)+20.log(fc)= 85,235\\\\
 Calculo de Lrts donde tenemos :\\
@@ -257,13 +263,19 @@ El nivel de señal recibido sera igual a:\\
 \\
 Nivel=Ptx-Lctx+Gtx-L+Grx-Lcrx+Grx=-83,22 dBm\\
 \\
-Mediante la utilizacion de la aplicacion Network Cell Info Lite se puede corroborar el resultado obtenido.\\
 
-\includegraphics[width=5cm]{image/Screenshot_2020-06-26-19-35-34-1.png}
+Mediante la utilizacion de la aplicacion Network Cell Info Lite se puede corroborar el resultado obtenido.
 
-\begin{center}
-\textbf{V. CONCLUSION}
-\end{center}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\columnwidth]{image/Screenshot_2020-06-26-19-35-34-1.png}
+	\caption{ Enlace}
+\end{figure}
+
+
+
+\section{CONCLUSION}
 En el presente páctico se realizo el cálculo de el nivel de recepción de señal.
 Hay que tener en cuenta que al momento de llevarse a cabo dicho metodo se estimo una antena base con una potencia de transmision de 40dB.
 Pueden observarse que el resultado  arrojado concuerda con el valor  de nivel de recepción obtenidos en el movil.En el 
@@ -311,12 +323,17 @@ Es trabajo se  aprendió  sobre la existencia y el uso de distintas aplicaciones
  
 \begin{thebibliography}{99} %enumerar automatico numero de bibiografias  %referencias el titulo auto 
 
-\bibitem{} {asdasdasdasdasdasdasd}
+\bibitem{} {Electromagnetic Wave Interactions
+Por Ard shir Guran, Raj Mittra, Philip J. Moser}
+
+\bibitem{} {Raj Jain, «Channel Models: A Tutorial», 2007}
+
+\bibitem{} {Quintana, Bordón Lopez, Montejo Sanchez, «Estudio comparativo de los
+modelos de propagación de canal inalámbrico», Universidad Central de
+Las Villas (UCLV), Cuba}
 
 \end{thebibliography}
 
-
-\end{multicols}
 \end{document}
 
 
